@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.myapplication.Fragment.FragmentSearchActivity;
+import com.example.myapplication.Fragment.FragmentSearchFragment;
 import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        FragmentSearchActivity fragmentSearchActivity = new FragmentSearchActivity();
-        fragmentTransaction.replace(R.id.framecontent, fragmentSearchActivity);
+        FragmentSearchFragment fragmentSearchFragment = new FragmentSearchFragment();
+        fragmentTransaction.replace(R.id.framecontent, fragmentSearchFragment);
         fragmentTransaction.commit();
     }
 
@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     public void onSearch2(View view) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        FragmentSearchActivity fragmentSearchActivity = new FragmentSearchActivity();
-        fragmentTransaction.replace(R.id.framecontent, fragmentSearchActivity);
+        FragmentSearchFragment fragmentSearchFragment = new FragmentSearchFragment();
+        fragmentTransaction.replace(R.id.framecontent, fragmentSearchFragment);
         fragmentTransaction.commit();
     }
 

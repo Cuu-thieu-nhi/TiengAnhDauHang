@@ -20,7 +20,7 @@ import com.example.myapplication.model.Word;
 
 import java.util.List;
 
-public class FragmentSearchActivity extends Fragment {
+public class FragmentSearchFragment extends Fragment {
 
     ImageButton btnSearch;
     private EditText edttInput;
