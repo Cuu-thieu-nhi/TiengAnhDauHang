@@ -10,7 +10,7 @@
         android:label="tienganhhangdau"
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Material3.Light">
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
         <activity android:name=".Activity.app.DailyWordActivity" />
         <activity android:name=".Activity.app.ListWordActivity" />
         <activity android:name=".Activity.app.HomeWorkActivity" />
