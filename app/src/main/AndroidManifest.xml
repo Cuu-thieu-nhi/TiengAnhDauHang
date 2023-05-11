@@ -3,10 +3,11 @@
     package="com.example.myapplication">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/applogo"
-        android:label="Ứng dụng học tiếng anh số 1 Ptit"
+        android:label="tienganhhangdau"
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Material3.Light">
@@ -26,6 +27,8 @@
         <activity android:name=".Activity.app.MainActivity"/>
         <activity android:name=".Activity.app.LessonActivity" />
         <activity android:name=".Activity.app.TopicActivity" />
+        <activity android:name=".Activity.app.ChangeAvatarActivity" />
+        <activity android:name=".Activity.app.ChangePasswordActivity" />
 
     </application>
 </manifest>
